@@ -1,0 +1,14 @@
+header {
+	background-color: yellow;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+	header img {
+		float: left;
+		margin: 20px 10px 0;
+	}
+	
+#wrapper {
+	margin: 10px;
+}
