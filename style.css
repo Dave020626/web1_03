@@ -1,0 +1,61 @@
+header {
+	background-color: yellow;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+}
+	header img {
+		float: left;
+		margin: 20px 10px 0;
+	}
+	
+#wrapper {
+    margin: 10px;
+}
+    aside {
+        display: table-cell;
+        vertical-align: top;
+        margin: 10px;
+    }
+        nav {
+            background-color: orange;
+            border-radius: 20px;
+            border: 0 10px 0 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 15px 0px;
+            margin: 0px;
+        }
+        nav li{
+            padding: 0px 15px;
+        }
+        nav a {
+            color: blue;
+            text-decoration: none;
+        }
+        nav :hover {
+            text-decoration: underline;
+        }
+        nav li.active {
+            border-right: solid 5px blue;
+        }
+
+#head {
+	border: solid 5px blue;
+}
+
+#content {
+    display: table-cell;
+    background-color: aquamarine;
+    margin: 10px;
+	padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: purple;
+    margin: 10px;
+	padding: 10px;
+    border-radius: 20px;
+}
